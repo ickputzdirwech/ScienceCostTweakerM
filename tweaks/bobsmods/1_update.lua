@@ -298,6 +298,7 @@ if mods["bobtech"] then
 		else
 			data.raw.lab["lab-2"].researching_speed = 1
 		end
+  		data.raw.lab["lab-2"].icons = data.raw.item["lab-2"].icons
 		data.raw.lab["sct-lab-t4"].next_upgrade = "lab-2"
 		data.raw.lab["lab"].next_upgrade = "sct-lab-t2"
 	end
